@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package BinaryConverter;
 
 import java.util.Scanner;
@@ -13,7 +8,6 @@ import java.util.Scanner;
  */
 public class BinaryToDecimal {
     public static void main(String args[]){
-        
         Scanner myObj = new Scanner(System.in);  
         System.out.println("Enter the binary number");
         //The binary number
@@ -29,9 +23,7 @@ public class BinaryToDecimal {
                 result += Math.pow(2, aux);
             }
             aux++;
-        }
-        
+        }   
         System.out.println("Result: "+result);
     }
-    
 }
