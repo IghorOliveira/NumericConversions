@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package HexadecimalConverter;
 
 import java.util.HashMap;
@@ -14,10 +9,8 @@ import java.util.Scanner;
  * @author Ighor Alves
  */
 public class HexaToDecimalMapped {
-
     //Uses HashMap to convert Hex to Decimal
     public static void main(String args[]){
-        
         //Setting things up
         Scanner myObj = new Scanner(System.in);  
         System.out.println("Enter the hexa number");      
