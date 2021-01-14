@@ -1,2 +1,2 @@
 # NumericConversions
-A bunch o classes to tackle conversion between counting systems
+A bunch fo classes to tackle conversion between counting systems
