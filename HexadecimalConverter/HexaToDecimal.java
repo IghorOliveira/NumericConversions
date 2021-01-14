@@ -7,10 +7,8 @@ import java.util.Scanner;
  * @author Ighor Alves
  */
 public class HexaToDecimal {
-    
     //Uses ASCII values to convert Hex to Decimal
     public static void main(String args[]){
-        
         //Setting things up
         Scanner myObj = new Scanner(System.in);  
         System.out.println("Enter the hexa number");
@@ -36,7 +34,6 @@ public class HexaToDecimal {
             System.out.println("Processing: (16^"+aux+")x"+digitValue+"= "+(int) (Math.pow(16,aux)*digitValue));
             aux++;
         }
-        
         System.out.println("Result: "+result);
     }
 }
