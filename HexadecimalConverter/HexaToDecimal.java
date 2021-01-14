@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package HexadecimalConverter;
 
 import java.util.Scanner;
@@ -12,8 +7,7 @@ import java.util.Scanner;
  * @author Ighor Alves
  */
 public class HexaToDecimal {
-    //Logic: ((16^position in array)*digit value)
-    //Remember to create an general unit converter
+    
     //Uses ASCII values to convert Hex to Decimal
     public static void main(String args[]){
         
